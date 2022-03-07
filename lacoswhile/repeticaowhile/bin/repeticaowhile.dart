@@ -1,9 +1,9 @@
 void main() {
-  int i = 0;
+  int i = 10;
 
-  while (i <= 10) {
+  while (i >= 0) {
     print(i);
-    i++;
+    i--;
   }
   print('Terminou...');
 }
