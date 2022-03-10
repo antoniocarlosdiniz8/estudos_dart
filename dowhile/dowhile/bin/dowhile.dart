@@ -1,4 +1,7 @@
 void main() {
-  String nome = 'Carlos';
-  print('Meu nome é ${nome}, eu tenho 10.00 R\$?');
+  int c = 1;
+  do {
+    print('Passo ${c}');
+    c++;
+  } while (c <= 2);
 }
