@@ -1,11 +1,11 @@
 void main() {
-  saudacoes();
+  saudacoes('Carlos', 'Impolut');
   // String a = agora();
   // print(a);
 }
 
-void saudacoes() {
-  print('Antonio vc está contratado!');
+void saudacoes(String nome, String empresa) {
+  print('$nome, vc está contratado na $empresa!');
   print('Venha trabalhar conosco!');
   print('São: ${agora()}');
 }
