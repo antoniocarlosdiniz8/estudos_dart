@@ -1,10 +1,6 @@
 void main() {
-  var nomes = ['Sergio', 'Jeuendel', 'Carlos', 'Rafael', 'Julio'];
-  var quantElemento = nomes.length;
-  print(quantElemento);
-  var contador = 0;
-  while (contador < quantElemento) {
-    print(nomes[contador]);
-    contador++;
-  }
+  
+  String nome = 'Antonio';
+  int idade = 18;
+  print('Tudo, bem!!! $nome, voçê tem $idade anos:');
 }
